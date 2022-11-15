@@ -6,6 +6,8 @@
   "homepage": "https://github.com/tensorflow/tensorflow",
   "dependencies": [
     "pthreadpool",
-    "eigen3"
+    "eigen3",
+    "abseil",
+    "flatbuffers"
   ]
 }
