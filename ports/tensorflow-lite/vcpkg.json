@@ -1,0 +1,10 @@
+{
+  "name": "tensorflow-lite",
+  "version": "2.10.0",
+  "port-version": 1,
+  "description": "TensorFlow Lite is TensorFlow's lightweight solution for mobile and embedded devices.",
+  "homepage": "https://github.com/tensorflow/tensorflow",
+  "dependencies": [
+    "pthreadpool"
+  ]
+}
