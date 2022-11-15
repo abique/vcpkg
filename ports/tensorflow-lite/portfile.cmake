@@ -8,6 +8,9 @@ vcpkg_from_github(
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}/tensorflow/lite
     PREFER_NINJA
+    OPTIONS
+        -DTFLITE_ENABLE_RUY=OFF
+        -DTFLITE_ENABLE_NNAPI=OFF
 )
 vcpkg_install_cmake()
 vcpkg_copy_pdbs()

@@ -8,6 +8,9 @@
     "pthreadpool",
     "eigen3",
     "abseil",
-    "flatbuffers"
+    "flatbuffers",
+    "neon2sse",
+    "cpuinfo",
+    "gemmlowp"
   ]
 }
