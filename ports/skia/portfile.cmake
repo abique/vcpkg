@@ -11,7 +11,7 @@ vcpkg_from_github(
         # skia-include-string.patch
         bentleyottmann-build.patch
         graphite.patch
-        # vulkan-headers.patch
+        vulkan-headers.patch
         pdfsubsetfont-uwp.diff
 )
 
